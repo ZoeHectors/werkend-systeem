@@ -1,0 +1,39 @@
+body {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5718ef2886db4307e3fa4fdd/1523156811102-0XU0KLSJGKIVNCVIEMM9/ke17ZwdGBToddI8pDm48kH3G5g9inPJrstxuufrYdQJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0pa5utEcoDWpn0hH27EPHs7JMy92e0pM2exke111ektbEFRH772Td_lD-qw8VKGwFA/Watercolor+flowere+scan+purple.jpg?format=500w');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+    background-size: 800px 842px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(68, 61, 110);
+}
+
+h2 {
+    text-align: center;
+}
+
+.radio {
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.button {
+    display: block;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255, 0.8);
+}

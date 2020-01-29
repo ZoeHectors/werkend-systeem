@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src='js/myscript.js'></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h1>Afspraak maken</h1>
+    <form class="form">
+        <input type="radio" class="radio" name="behandeling" id="knippen" value="knippen"> Knippen
+        <input type="radio" class="radio" name="behandeling" id="verven" value="verven"> Verven
+        <input type="radio" class="radio" name="behandeling" id="stylen" value="stylen"> Stylen
+        <input type="radio" class="radio" name="behandeling" id="permanent" value="permanent"> Permanent <br>Datum en tijdstip:
+        <input type="datetime-local" class="form-control" name="datumtijd" id="datumtijd"> Voornaam:
+        <input type="text" class="form-control" id="firstname" name="firstname"> Achternaam:
+        <input type="text" class="form-control" id="lastname" name="lastname">Email:
+        <input type="email" class="form-control" id="email" name="email">
+        <input type="button" class="button" value="Afspraak maken" onclick="maak_afspraak()">
+    </form>
+
+</body>
+
+</html>
